@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Portfolio</title>
+  <title>Toheeb Oseni | Portfolio</title>
 
   <style>
     body {
@@ -40,8 +40,9 @@
       display: flex;
       flex-direction: column;
       gap: 15px;
-      max-width: 500px;
+      max-width: 600px;
       margin: auto;
+      text-align: left;
     }
 
     .project-box {
@@ -51,10 +52,27 @@
       box-shadow: 0 0 5px rgba(0,0,0,0.1);
     }
 
+    .project-box a {
+      text-decoration: none;
+      color: #1e3a8a;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .project-box p {
+      margin: 5px 0 0 0;
+      font-size: 14px;
+      color: #333;
+    }
+
     .contact {
       background-color: #111827;
       color: white;
       padding: 30px;
+    }
+
+    .contact p {
+      margin: 5px 0;
     }
   </style>
 
@@ -63,7 +81,7 @@
 <body>
 
   <header>
-    <h1>Crown Oseni</h1>
+    <h1>Toheeb Oseni</h1>
     <p>Frontend Developer (HTML & CSS)</p>
   </header>
 
@@ -75,15 +93,35 @@
   <section>
     <h2>My Projects</h2>
     <div class="projects">
-      <div class="project-box">Beauty Business Website</div>
-      <div class="project-box">TechFix Solutions Website</div>
+
+      <div class="project-box">
+        <a href="https://CrownOseni.github.io/glow-beauty-studio/" target="_blank">
+          Beauty Business Website
+        </a>
+        <p>Built using HTML & CSS, fully responsive layout, designed to attract customers online.</p>
+      </div>
+
+      <div class="project-box">
+        <a href="https://CrownOseni.github.io/techfix-solutions/" target="_blank">
+          TechFix Solutions Website
+        </a>
+        <p>Corporate-style website for a tech repair business, showcasing services and contact info.</p>
+      </div>
+
+      <div class="project-box">
+        <a href="https://CrownOseni.github.io/toheeb-portfolio/" target="_blank">
+          My Portfolio Website
+        </a>
+        <p>Showcases all my projects and skills as a beginner frontend developer.</p>
+      </div>
+
     </div>
   </section>
 
   <section class="contact">
     <h2>Contact Me</h2>
-    <p>Email: toheeboseni162@gmail.com</p>
-    <p>Phone: 07011980176</p>
+    <p>Email: your@email.com</p>
+    <p>Phone: 08000000000</p>
   </section>
 
 </body>
